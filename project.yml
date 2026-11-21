@@ -1,0 +1,24 @@
+
+name: UE4MenuLauncher
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+targets:
+  UE4MenuLauncher:
+    type: application
+    platform: iOS
+    sources:
+      - path: UE4MenuLauncher
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.ue4menulauncher
+        PRODUCT_NAME: UE4MenuLauncher
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "UE4 MENU"
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
