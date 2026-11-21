@@ -10,7 +10,7 @@ targets:
     type: application
     platform: iOS
     sources:
-       - path: UE4MenuLauncherApp.swift
+  - path: src/UE4MenuLauncherApp.swift
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.example.ue4menulauncher
